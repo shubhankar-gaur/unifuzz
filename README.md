@@ -10,6 +10,8 @@ It generates homoglyph, case-anomaly, symbol-swap, and zero-width variants of a 
 
 Live demo: https://unifuzz.shubhankargaur.xyz/
 
+![alt text](image.png)
+
 ## Why this exists
 
 Because Unicode is basically:
@@ -64,8 +66,6 @@ If you are wondering where this actually becomes useful, start here:
 - Domain and redirect validation: homograph-style issues, redirect allowlist bypasses, visually similar hostnames
 - Mobile and API edge cases: frontend vs backend normalization mismatch, JSON parsing differences, token or header comparison bugs
 - Rate-limit and anti-abuse controls: repeated signup, OTP abuse, duplicate prevention bypasses using Unicode variants
-- Search and matching logic: hidden records, broken lookup behavior, moderation or detection misses
-- Logging and monitoring evasion: activity split across visually similar identities, alerting blind spots
 - File upload and extension checks: cases like `shell.php` vs `shell.pһp` where the extension looks right until it really does not
 - Case plus Unicode combos: mixed-case identity confusion, case-insensitive comparisons with Unicode edge behavior
 
