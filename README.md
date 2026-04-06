@@ -10,7 +10,7 @@ It generates homoglyph, case-anomaly, symbol-swap, and zero-width variants of a 
 
 Live demo: https://unifuzz.shubhankargaur.xyz/
 
-![alt text](image.png)
+![UniFuzz PoC](unifuzz-PoC.gif)
 
 ## Why this exists
 
